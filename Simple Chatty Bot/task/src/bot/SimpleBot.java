@@ -56,7 +56,6 @@ public class SimpleBot {
             choice = scanner.nextInt();
             if (choice != 2) System.out.println("Please, try again.");
         } while (choice != 2);
-        System.out.println("Congratulations, have a nice day!");
     }
 
     static void end() {
